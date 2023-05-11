@@ -1,0 +1,38 @@
+.main {
+  background-color: rgb(31, 29, 29);
+  display: flex;
+}
+.users {
+  border: white solid 3px;
+  overflow: scroll;
+  height: 697px;
+  width: 40%;
+  overflow-x: hidden;
+  padding: 25px;
+}
+.chat {
+  border: white solid 3px;
+  overflow: scroll;
+  height: 697px;
+  width: 40%;
+  overflow-x: hidden;
+  padding: 25px;
+  margin-left: 200px;
+}
+.sender {
+  display: flex;
+  flex-direction: column;
+}
+.send {
+  margin-top: 10px;
+  margin-left: 33px;
+}
+button {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  cursor: pointer;
+  border: 25px;
+  border-radius: 10px;
+  margin: 5px;
+}
